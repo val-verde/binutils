@@ -37,6 +37,9 @@
 #include "cc_libcollector.h"
 #include "tsd.h"
 
+#undef fprintf
+#undef snprintf
+
 /* TprintfT(<level>,...) definitions.  Adjust per module as needed */
 #define DBG_LT0 0 // for high-level configuration, unexpected errors/warnings
 #define DBG_LT1 1 // for configuration details, warnings

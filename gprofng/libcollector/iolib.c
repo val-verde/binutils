@@ -36,6 +36,8 @@
 #include "gp-experiment.h"
 #include "memmgr.h"
 
+#undef snprintf
+
 /* TprintfT(<level>,...) definitions.  Adjust per module as needed */
 #define DBG_LT0 0 // for high-level configuration, unexpected errors/warnings
 #define DBG_LT1 1 // for configuration details, warnings

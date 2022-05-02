@@ -39,6 +39,8 @@
 #include "gp-experiment.h"
 #include "memmgr.h"
 
+#undef snprintf
+
 /*
  * These are obsolete and unreliable.
  * They are included here only for historical compatibility.

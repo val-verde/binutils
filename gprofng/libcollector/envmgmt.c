@@ -25,6 +25,9 @@
 #include "config.h"
 #include "descendants.h"
 
+#undef fprintf
+#undef snprintf
+
 #define MAX_LD_PRELOADS 2
 
 /* TprintfT(<level>,...) definitions.  Adjust per module as needed */
